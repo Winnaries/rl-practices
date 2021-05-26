@@ -1,4 +1,4 @@
-use rand::distributions::{Distribution, Standard, Uniform};
+use rand::distributions::{Distribution, Standard};
 use rand::Rng;
 use std::ops::Add;
 
