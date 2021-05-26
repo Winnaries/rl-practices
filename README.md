@@ -22,3 +22,20 @@ velocity increment/decrement at each time step.
  - Optionally create an on-policy estimation of optimal policy.
  - Implement discounting-aware importance sampling.
  - Learn per-decision importance sampling and see if it can help.
+
+### Windy Gridworld :wind_chime:
+
+`path: /windy-gridworld`
+
+A Sarsa (on-policy temporal difference control) for estimating the most promising route to travel from `A` to `B` within the grid world, given 9 actions to choose and vertical stochastic wind effects. 
+
+#### Lessons Learned
+ - An elegant way to implement action sampling from policy and custom distribution in Rust
+ - Epsilon greedy algorithm have a huge effect on how the algorithm perform on the later episodes
+ - Efficient implementation of Sarsa algorithm
+
+#### What Next?
+ - Try tweaking learning rate and epsilon
+ - Plot the learning efficiency with reward data
+ - Implement an Expected Sarsa instead of ordinary Sarsa
+ - Try Q-learning as opposed to on-policy algorithm
