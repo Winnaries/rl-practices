@@ -2,5 +2,6 @@
 
 members = [
     'racetrack', 
-    'windy-gridworld'
+    'windy-gridworld', 
+    'dynaq-bonus'
 ]
